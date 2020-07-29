@@ -1,0 +1,17 @@
+{
+  "name": "barcelonista-final",
+  "version": "1.0.0",
+  "description": "app for barcelona fans",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "luckynew",
+  "license": "ISC"
+}

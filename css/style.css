@@ -1,0 +1,47 @@
+.player-card {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url('../images/player-card-img.jpg');
+  height: 750px;
+  width: 750px;
+  margin-left: 40%;
+}
+
+.match-card {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url('../images/match-card-img.jpg');
+  height: 750px;
+  width: 750px;
+  margin-left: 25%;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+  .match-card {
+    margin-left: 25%;
+    width: 500px;
+    height: 750px;
+  }
+
+  .player-card {
+    margin-left: 50%;
+    height: 750px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 375px) {
+  .match-card {
+    margin-left: 0;
+    width: 325px;
+    height: 750px;
+  }
+
+  .player-card {
+    margin-left: 0;
+    height: 750px;
+    width: 325px;
+  }
+}
